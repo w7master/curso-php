@@ -12,3 +12,5 @@ if (mysqli_connect_errno()){
     die(); // para o sistema se tive erro
     
 }
+
+

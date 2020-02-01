@@ -122,3 +122,60 @@ $num++;
 for ($par= 0, $impar = 1; $par <= 100; $par += 2, $impar += 2){
     echo "$Par: $par e Impar $impar /br>";
 }
+
+
+include 'funcoes.php'; // incluindo um aqruivo vc pode criar pastas
+// ../ server para voltar um nivel de pasta anterior
+
+echo $curso;
+
+$curso 'PHP para web';
+
+include_once('funcoes.php') // só vai incluir caso não tenha incuido
+
+require('funcoes.php'); // importa de novo arquivo
+
+require_once(''); // usa se precisar obrigatoriamente para funcionar
+
+
+
+
+
+// function soma($a, $b) {
+//     $resultado = $a + $b;{
+//     echo $resultado;
+//       return $resultado;
+//     }
+// }
+
+// function soma($a, $b) { // voce pode usar uma função dentro da outra
+//     $resultado = $a + $b;{
+//     echo $resultado;
+//       return $resultado;
+//     }
+// }
+
+// function recursao($a) {
+
+//     if ($a <= 20) {
+//         echo "$a</br>";
+//         recursao ($a + 1);
+//     }
+// }
+
+// recursao(1);
+
+//  funcção de matematica
+
+var_dump (trim($variavel)); // remover espaços
+$variavel strtoupper($variavel); // modificar para miusculo
+$variavel uc($variavel) // modificar para miusculo
+
+$var = strstr ("cotato@w7master.com.br, "@", true"); // começa do @ em dianta
+
+
+file_put_contents('aula.txt', "testando criar aquivo"); // cria um arquivo txt com o texto que escrevi
+
+file_get_contents('aula.txt'); // ler aquivo de texto
+
+
